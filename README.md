@@ -1,5 +1,5 @@
 # hashtag-flow-twitter
-Contains the codebase for the Social Computing Term Project, Autumn 2017 IIT Kharagpur. The name of our project is "Prediction of hashtag flow in Twitter" and the team comprised of Avirup Saha, Soumyadeep Roy, Srinidhi Moodalagiri, Kushal Gaikwad, Abhay Shukla.  The final presentation slides are provided "DL Term Project presentation.pdf".
+Contains the codebase for the Social Computing Term Project, Autumn 2017 IIT Kharagpur. The name of our project is "Prediction of hashtag flow in Twitter" and the team comprised of Avirup Saha, Soumyadeep Roy, Srinidhi Moodalagiri, Kushal Gaikwad, Abhay Shukla.  The final report is in the file "Final_Report_SocialCompTermProject_2017.pdf".
 
 
 # Description
