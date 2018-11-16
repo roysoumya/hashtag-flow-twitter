@@ -11,7 +11,7 @@ Through this term project, we propose the following approaches :
 1. Linear memory less (LMM) which is a novel approach that relies on hashtag-tweet reinforcement.
 2. SeqGAN model (as described in Yu et. al. 2017) which explicitly models inter-hashtag competition.
 
-# Event Detection
+# Code usage instructions
 There are two steps to run this code:
 
 ### Preprocessing: 
