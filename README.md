@@ -1,29 +1,25 @@
 # hashtag-flow-twitter
-Contains the codebase for the Social Computing Term Project, Autumn 2017 IIT Kharagpur
+Contains the codebase for the Social Computing Term Project, Autumn 2017 IIT Kharagpur. The name of our project is "Prediction of hashtag flow in Twitter" and the team comprised of Avirup Saha, Soumyadeep Roy, Srinidhi Moodalagiri, Kushal Gaikwad, Abhay Shukla.  The final presentation slides are provided "DL Term Project presentation.pdf".
+
 
 # Description
-This work is a part of my Deep Learning Term Project of Spring, 2018 titled "Event Extraction and Coreferencing". My other team members are : Avirup Saha and Gourab Kumar Patro. The final presentation slides are provided "DL Term Project presentation.pdf".
+In general, the popularity of a hashtag depends on the two primary factors : 
+1. hashtag tweet reinforcement
+2. hashtag-hashtag competition
+
+Through this term project, we propose the following approaches : 
+1. Linear memory less (LMM) which is a novel approach that relies on hashtag-tweet reinforcement.
+2. SeqGAN model (as described in Yu et. al. 2017) which explicitly models inter-hashtag competition.
 
 # Event Detection
 There are two steps to run this code:
 
 ### Preprocessing: 
-using file data_script.py and encode_window.py You will need to have the ACE 2005 data set in the format required by this file. We cannot include the data in this release due to licence issues.
 
-The dataset given to us is in xml format. We made major changes in the data_script.py and ed_train.py file. Contain 38 event.subtypes
-
-Train and test the model: using file ed_train.py
 
 # Coding environment
 Python 3.6.4
 
-numpy 1.14.2
-
-tensorflow 1.6.0
-
 # References:
-Nguyen, Thien Huu, and Ralph Grishman. "Event Detection and Domain Adaptation with Convolutional Neural Network"
-
-Kim, Yoon. "Convolutional neural networks for sentence classification." arXiv preprint arXiv:1408.5882 (2014).
-
+Yu, L.; Zhang, W.; Wang, J.; and Yu, Y. 2017. Seqgan: Sequence generative adversarial nets with policy gradient. In AAAI, 2852–2858
 
