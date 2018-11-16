@@ -12,10 +12,25 @@ Through this term project, we propose the following approaches :
 2. SeqGAN model (as described in Yu et. al. 2017) which explicitly models inter-hashtag competition.
 
 # Code usage instructions
-There are two steps to run this code:
+Fields are as follows:
 
-### Preprocessing: 
+Processed[i].txt
 
+k_array [popularity count]
+training timestamp (relative to the first occurrence)
+omega
+omega_0
+alpha
+initial_value(beta, lambda_0)
+testtimestamp
+
+rank[i].txt
+
+ranked_list of hashtags in different time window
+(you can split as many as you can)
+
+name[i].txt
+list of competing hashtags
 
 # Coding environment
 Python 3.6.4
